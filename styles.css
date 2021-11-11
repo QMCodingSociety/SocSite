@@ -1,17 +1,41 @@
 body {
     font-family: "Lato", sans-serif;
-    background-image: url("code-bg.jpg");
-    color: white;
+    /*background-image: url("code-bg-white.jpg");*/
+    color: rgb(26, 26, 58);
+    margin:0;
 }
 
-h1, .text {
+/*#home-bg {
+    background: black;
+}*/
+.page-header {
+    background-image: url("code-bg.jpg");
+    
+    background-size: cover;
+    margin: 0;
+    padding: 10vh;
+}
+
+#header-img {
+    max-width: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/*h1, .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10vh;
-}
+}*/
 
+h1 {
+    margin: 0;
+}
 
 button {
     color: red;
