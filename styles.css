@@ -1,0 +1,43 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("code-bg.jpg");
+    color: white;
+}
+
+h1, .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+
+
+button {
+    color: red;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+a:hover, a:active {
+    background-color: blue;
+}
+
+.back-button {
+    background-color: yellow;
+    margin-top: 10vh;
+}
+
+.back-button a {
+    background-color: none;
+}
+
