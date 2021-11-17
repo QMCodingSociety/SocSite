@@ -1,27 +1,46 @@
-body {
+body, html{
     font-family: "Lato", sans-serif;
-    /*background-image: url("code-bg-white.jpg");*/
     color: rgb(26, 26, 58);
+    color: rgb(84, 84, 87);
     margin:0;
+    height: 100%;
 }
 
-/*#home-bg {
-    background: black;
-}*/
 .page-header {
     background-image: url("code-bg.jpg");
-    
-    background-size: cover;
+    height: 100%;
     margin: 0;
-    padding: 10vh;
+
+    /* The parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header-img {
-    max-width: 35vh;
+/* FIGURE OUT HOW TO CENTRE IT!!! */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    margin: 0;
+    /*max-width: 35vh;*/
+    width: 50%;
+    height: auto;
+    margin-right: 0;
+    object-fit: contain;
+}
+
+.page-content {
+    margin: 0;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p {
     margin: 0;
 }
 
