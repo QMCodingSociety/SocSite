@@ -25,20 +25,14 @@ body, html{
     text-decoration: none;
     padding: 0 2%;
 }
-
 .page-navbar li {
     display: inline;
     padding: 0 1%;
 }
-/*
-.page-navbar ul {
-    margin: 0;
-}*/
 
-
-.page-header {
+/* Header */
+.page-header, .page-header-home {
     background-image: url("code-bg.jpg");
-    height: 100%;
     margin: 0;
 
     /* The parallax scrolling effect */
@@ -47,9 +41,11 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.page-header-home {
+    height: 100%;
+}
 #header-img {
-/* FIGURE OUT HOW TO CENTRE IT!!! */
+/* FIGURE OUT HOW TO CENTRE IT!!!!!!!!! */
     display: flex;
     flex-direction: row;
     justify-content: center;
