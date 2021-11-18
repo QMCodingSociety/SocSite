@@ -18,6 +18,9 @@ body, html{
 .page-navbar {
     text-align: right;
 }
+#nav-img {
+    text-align: left;
+}
 .page-footer {
     text-align: center;
 }

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>   
@@ -6,13 +5,13 @@
 
     <body>
         <div class="page-navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>About</li>
-                <li>Umm</li>
-                <li>Ummm</li>
-                <li><a href="contact.html">Contact Us</a><li>
-            </ul>
+            <!-- Logo in corner of navbar
+                <img id="nav-img" src="qmcs-logo-white.png" style="height:50px">-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="code.html">Code</a></li>
+                    <li><a href="contact.html">Contact Us</a><li>
+                </ul>
         </div>
 
         <div class="page-header">
@@ -20,12 +19,28 @@
         </div>
 
         <div class="page-content">
-            <div class="text">
-                <p>Welcome to the Queen Mary Coding Society. We were created in 2020 as a results of ... </br>A place where a community of coders within the university can develop their skills.</p>
-                <p>Click <a href="enter.html">here</a> to enter the site</p>
-            </div>
-            <div class="more-information">
-                <p>put contact form here</p>
+            <form action="">
+                <label for="fname">First Name</label></br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required></br></br>
+        
+                <label for="lname">Last Name</label></br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></br></br>
+                
+                <label for="topic">Topic</label></br>
+                <select id="topic" name="topic">
+                    <option value="default" selected disabled>Choose here</option>
+                    <option value="join">Joining Society</option>
+                    <option value="membership">Membership</option>
+                    <option value="event">Event Suggestion</option>
+                    <option value="other">Other</option>
+                </select></br></br>
+            
+                <label for="subject">Subject</label></br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:250px" required></textarea></br>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
 
             
         </div>
