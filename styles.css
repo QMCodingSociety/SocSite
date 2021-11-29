@@ -1,6 +1,5 @@
 body, html{
     font-family: "Lato", sans-serif;
-    color: rgb(26, 26, 58);
     color: rgb(84, 84, 87);
     margin:0;
     height: 100%;
@@ -14,24 +13,42 @@ body, html{
     font-variant: small-caps;
 }
 
-/* Specifying alignment of nav and footer content */
+/* Specifying alignment of nav and footer content */ 
 .page-navbar {
-    text-align: right;
+    /*text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;*/
 }
 #nav-img {
-    text-align: left;
+    max-width: 15%;
 }
+.nav-list {
+    vertical-align: middle;
+}
+/*.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}*/
 .page-footer {
     text-align: center;
 }
 .page-navbar a, .page-footer a {
     text-decoration: none;
     padding: 0 2%;
+    color: white;
 }
-.page-navbar li {
-    display: inline;
-    padding: 0 1%;
-}
+
+/* need to align text to right and logo to left.. it's not working */
+
+
+
+
+
+
 
 /* Header */
 .page-header, .page-header-home {
@@ -47,27 +64,15 @@ body, html{
 .page-header-home {
     height: 100%;
 }
-#header-img {
-/* FIGURE OUT HOW TO CENTRE IT!!!!!!!!! */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0;
-    /*max-width: 35vh;*/
-    width: 50%;
-    height: auto;
-    margin-right: 0;
-    object-fit: contain;
+.page-header {
+    height: 30%;
 }
+
+/* Page content from here */
 
 .page-content {
     margin: 0;
-    padding: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
-    
+    padding: 5% 20%;
 }
 
 p {
